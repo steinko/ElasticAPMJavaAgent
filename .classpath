@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="postgressService/src/main/java"/>
+	<classpathentry kind="src" path="postgressService/src/test/java"/>
+	<classpathentry kind="src" path="postgressService/src/main/resources"/>
+	<classpathentry kind="lib" path="agent/elastic-apm-agent-1.24.0.jar"/>
+	<classpathentry kind="lib" path="postgressService/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

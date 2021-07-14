@@ -1,0 +1,6 @@
+config:
+  deployment:cloudLocation: europe-north1-a
+  deployment:cloudProject: springboot22
+  deployment:cloudRegion: europe-north1
+  deployment:dbPassword: RoxyMusic11
+  deployment:dbUserName: springuser
