@@ -6,7 +6,7 @@ stages:
 
 build-backend:
   stage: build
-  image: java:11
+  image: gradle:latest
   script:
     - ./postgressService/gradlew build 
   artifacts:
@@ -16,7 +16,8 @@ build-backend:
 
 test-frontend:
   stage: build
-  image: npm:latest
+  image: node:latest
   script:
     - cd frontend/app
+    - npm install
     - npm test
