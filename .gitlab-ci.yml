@@ -8,7 +8,9 @@ build-backend:
   stage: build
   image: gradle:latest
   script:
-    - ./postgressService/gradlew build 
+    - cd postgressService
+    - gradle build 
+    - cd ..
   artifacts:
     paths:
       - ./postgressService/build/libs/elastic.apm.agent.jar 
