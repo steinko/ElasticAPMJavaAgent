@@ -9,7 +9,7 @@ build-backend:
   image: gradle:latest
   script:
     - cd postgressService
-    - gradle build 
+    - gradle build --info 
     - cd ..
   artifacts:
     paths:
