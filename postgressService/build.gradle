@@ -4,7 +4,6 @@ plugins {
 	id 'java'
 }
 
-sourceCompatibility = '16'
 
 repositories {
 	mavenCentral()
